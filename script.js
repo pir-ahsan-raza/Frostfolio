@@ -1,4 +1,4 @@
-// bar animation!
+// bar_animtion
 document.addEventListener("DOMContentLoaded", () => {
   const skillBars = document.querySelectorAll("#skills .bar");
 
@@ -117,3 +117,4 @@ document.querySelectorAll(".reveal").forEach((el) => revObs.observe(el));
 
 // getting year!
 document.getElementById("year").textContent = new Date().getFullYear();
+
